@@ -1,0 +1,4 @@
+- This customized theme has no license nor copyright.It is a free-to-use code,you can use it for any purpose without getting any trouble.
+- Source code : https://github.com/refact0r/midnight-discord.
+- Originally created by (https://github.com/refact0r) , edited by me 
+- Leave a comment if you enjoy this version of Midnight 
