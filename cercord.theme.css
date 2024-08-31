@@ -46,7 +46,7 @@
 	--text-5:hsla(0, 0%, 84%, 0.8); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: #ffffff /* dark buttons when clicked */
+	--bg-1: #ffffff; /* dark buttons when clicked */
 	--bg-2: #ffffff; /* dark buttons */
 	--bg-3: #000000; /* spacing, secondary elements */
 	--bg-4: #000000; /* main background color */
