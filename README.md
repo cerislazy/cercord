@@ -1,4 +1,5 @@
 - This customized theme has no license nor copyright.It is a free-to-use code,you can use it for any purpose without getting any trouble.
 - Source code : https://github.com/refact0r/midnight-discord.
 - Originally created by (https://github.com/refact0r) , edited by me 
+- Preview link : https://discord-preview.vercel.app/?file=https://cdn.jsdelivr.net/gh/cerislazy/cercord@main/cercord.theme.css
 - Leave a comment if you enjoy this version of Midnight 
