@@ -31,7 +31,7 @@
 	/* accent colors */
 	--accent-1: #054cff; /* links */
 	--accent-2: #0008ff; /* general unread/mention elements */
-	--accent-3: #0008ff; /* accent buttons */
+	--accent-3: #000000; /* accent buttons */
 	--accent-4: #0008ff; /* accent buttons when hovered */
 	--accent-5: #0008ff; /* accent buttons when clicked */
 	--mention: hsla(211, 87%, 49%, 0.1); /* mentions & mention messages */
@@ -61,7 +61,7 @@
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
 	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
 	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
-	--moon-spin-transition: 0.4s ease; /* moon icon spin */
+	--moon-spin-transition: none; /* moon icon spin */
 	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
@@ -72,16 +72,23 @@
 	--roundness-xs: 10px; /* channels, buttons */
 	--roundness-xxs: 8px; /* searchbar, small elements */
 
-	/* direct messages moon icon (outdated) */
+		/* direct messages moon icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
-	--moon-icon-size: auto;
+	--moon-icon-url: url('https://img.icons8.com/?size=100&id=HkswC3z9l1V0&format=png&color=737373'); /* custom icon url */
+	--moon-icon-size: cover;
+
+
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */
 	--login-bg-filter: none; /* login background artwork */
 	--green-to-accent-3-filter: none; /* add friend page explore icon */
 	--blurple-to-accent-3-filter: none; /* add friend page school icon */
+
+/* choose style for window control buttons (minimize-maximize-close) */
+	/* block to show, none to hide; choose only one to show!*/
+	--windows-nav: none; /* default windows-style buttons */
+	--custom-nav: block; /* custom mac-style buttons */
 }
