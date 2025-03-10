@@ -46,8 +46,8 @@
 	--text-5:hsla(0, 0%, 84%, 0.8); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: #ffffff; /* dark buttons when clicked */
-	--bg-2: #ffffff; /* dark buttons */
+	--bg-1: #000000; /* dark buttons when clicked */
+	--bg-2: #000000; /* dark buttons */
 	--bg-3: #000000; /* spacing, secondary elements */
 	--bg-4: #000000; /* main background color */
 	--hover: #000000; /* buttons when hovered */
@@ -72,7 +72,7 @@
 	--roundness-xs: 10px; /* channels, buttons */
 	--roundness-xxs: 8px; /* searchbar, small elements */
 
-	/* direct messages moon icon */
+	/* direct messages moon icon (outdated) */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--moon-icon: block; /* moon icon */
